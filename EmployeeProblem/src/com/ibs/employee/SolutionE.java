@@ -27,7 +27,7 @@ public class SolutionE {
 		emp.stream().forEach(p -> hs.add(p.getDepId()));
 		
 		
-		Iterator it = hs.iterator();
+		Iterator<Integer> it = hs.iterator();
 		while (it.hasNext()) {
 			int i=(Integer)it.next();
 			System.out.print("\nMax salary in departemnt "+i+" = ");

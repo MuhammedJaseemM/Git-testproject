@@ -25,7 +25,7 @@ public class SolutionA {
 		HashSet<Integer> hs=new HashSet<Integer>();
 		emp.stream().forEach(p -> hs.add(p.getDepId()));
 		
-		Iterator it = hs.iterator();
+		Iterator<Integer> it = hs.iterator();
 		while (it.hasNext()) {
 			int i=(Integer)it.next();
 			System.out.println("\nEmployees in departemnt "+i);

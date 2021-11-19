@@ -1,10 +1,7 @@
 package com.ibs.employee;
 
 import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.Iterator;
 import java.util.NoSuchElementException;
-import java.util.OptionalInt;
 
 
 public class SolutionD {
